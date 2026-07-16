@@ -15,6 +15,7 @@ add_executable(
     avionics_demo
     src/application/main.cpp
     src/drivers/imu/SimulatedImuDriver.cpp
+    src/middleware/message_bus/LocalMessageBus.cpp
 )
 
 target_include_directories(

@@ -85,6 +85,18 @@ The first sensor driver has been implemented using a hardware-independent driver
 
 ---
 
+### Publish–Subscribe Middleware
+
+The simulated IMU driver now publishes timestamped sensor samples through a lightweight publish–subscribe message bus. Subscribers receive sensor data without depending directly on the driver implementation, enabling future platform backends for PX4/uORB, STM32 RTOS queues, and QNX message passing.
+
+<p align="center">
+  <img src="docs/images/middleware_imu_demo.png"
+       alt="IMU samples published through the avionics middleware"
+       width="900">
+</p>
+
+---
+
 ## Technologies
 - C++17
 - CMake
