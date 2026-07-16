@@ -73,7 +73,17 @@ Navigation --> FlightController
 FlightController --> Telemetry
 
 ````
+## Current Progress
 
+### Simulated IMU Driver
+
+The first sensor driver has been implemented using a hardware-independent driver interface. The simulation currently produces deterministic IMU data at 100 Hz to support software-in-the-loop (SIL) development.
+
+<p align="center">
+<img src="docs/images/imu_demo.png" width="850">
+</p>
+
+---
 
 ## Technologies
 - C++17

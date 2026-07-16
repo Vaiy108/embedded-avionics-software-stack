@@ -1,4 +1,4 @@
-```cmake
+
 cmake_minimum_required(VERSION 3.20)
 
 project(
@@ -14,6 +14,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(
     avionics_demo
     src/application/main.cpp
+    src/drivers/imu/SimulatedImuDriver.cpp
 )
 
 target_include_directories(
