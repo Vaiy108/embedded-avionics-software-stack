@@ -1,0 +1,43 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.obj
+*.o
+*.pdb
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj*
+CMakeSettings.json
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and generated simulation output
+logs/
+simulation/output/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# PX4/NuttX generated files
+.px4board
+px4_build/
