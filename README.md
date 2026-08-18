@@ -772,8 +772,6 @@ be deployed and exercised on physical embedded avionics hardware.
 
 ### Completed
 
-### Completed
-
 - Sensor Drivers
 - Publish–Subscribe Middleware
 - Sensor Manager
@@ -893,9 +891,6 @@ embedded-avionics-software-stack/
 - Health Monitoring
 - Fault Injection
 - Platform Abstraction
-
-### Next
-
 - Linux Validation
 - STM32 HAL Backend
 - PX4 Integration
